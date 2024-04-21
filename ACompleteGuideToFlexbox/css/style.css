@@ -1,3 +1,15 @@
-* {
-  background-color: black;
+.item {
+  height: 30px;
+  width: 45px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 10px;
+  column-gap: 40px;
 }
